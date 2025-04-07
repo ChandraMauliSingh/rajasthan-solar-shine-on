@@ -46,8 +46,8 @@ const successStories = [
     location: 'Sanoli Village',
     title: '2 MW Solar Plant Provides Stable Income',
     description: 'Smt. Rewati Devi installed a 2 MW solar plant under the PM-KUSUM scheme, transforming her financial situation and creating a reliable income source for her family.',
-    challenge: 'While specific challenges aren't detailed, implementing a 2 MW solar plant likely involved addressing operational issues such as coordinating with multiple stakeholders and managing construction timelines.',
-    impact: 'The 2 MW plant has not only provided financial stability to Smt. Rewati Devi's family but also serves as a model for women entrepreneurs in renewable energy across the region.',
+    challenge: "While specific challenges aren't detailed, implementing a 2 MW solar plant likely involved addressing operational issues such as coordinating with multiple stakeholders and managing construction timelines.",
+    impact: "The 2 MW plant has not only provided financial stability to Smt. Rewati Devi's family but also serves as a model for women entrepreneurs in renewable energy across the region.",
     keyPoints: [
       'Plant Capacity: 2 MW',
       'Scheme: PM-KUSUM Component A',
@@ -62,7 +62,7 @@ const successStories = [
     name: 'SAP Energy',
     location: 'Jodhpur District',
     title: 'Private Firm Leveraging Rajasthan Solar Policies',
-    description: 'SAP Energy established a 2 MW solar plant in collaboration with SunAlpha Energy, demonstrating how private enterprises can leverage Rajasthan's favorable solar policies for long-term investment.',
+    description: "SAP Energy established a 2 MW solar plant in collaboration with SunAlpha Energy, demonstrating how private enterprises can leverage Rajasthan's favorable solar policies for long-term investment.",
     challenge: 'The company had to navigate complex power purchase agreements with Jodhpur Vidyut Vitran Nigam and coordinate with the Rajasthan Renewable Energy Corporation as the nodal agency, ensuring compliance with contractual obligations and regulatory requirements.',
     impact: 'The project showcases successful public-private partnership in renewable energy, providing clean power to the grid while generating sustainable returns for investors.',
     keyPoints: [
