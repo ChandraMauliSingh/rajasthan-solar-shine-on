@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Check, Download, ExternalLink, AlertTriangle } from 'lucide-react';
@@ -117,23 +118,43 @@ const schemes = {
   },
   'solar-policy': {
     title: 'Rajasthan Solar Energy Policy 2019',
+    subtitle: 'State Policy for Solar Energy Development',
+    description: 'The policy aims to achieve a target of 30 GW solar power generation capacity by 2024-25 through state utilities and private sector.',
     heroImage: 'https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?auto=format&fit=crop&q=80',
-    // Other details would be filled in similar structure
+    components: [],
+    subsidies: [],
+    documents: [],
+    externalLink: 'https://energy.rajasthan.gov.in'
   },
   'rooftop': {
     title: 'Solar Rooftop Subsidy Scheme',
+    subtitle: 'Empowering Residential and Commercial Buildings',
+    description: 'The scheme provides subsidies for installing solar rooftop systems for residential, institutional, and commercial buildings.',
     heroImage: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80',
-    // Other details would be filled in similar structure
+    components: [],
+    subsidies: [],
+    documents: [],
+    externalLink: 'https://mnre.gov.in/solar/schemes'
   },
   'water-pumping': {
     title: 'Solar Water Pumping Scheme',
+    subtitle: 'Sustainable Irrigation Solutions for Farmers',
+    description: 'Designed to help farmers replace diesel pumps with solar-powered pumps, reducing operational costs and carbon footprint.',
     heroImage: 'https://images.unsplash.com/photo-1587572781079-85d900dee470?auto=format&fit=crop&q=80',
-    // Other details would be filled in similar structure
+    components: [],
+    subsidies: [],
+    documents: [],
+    externalLink: 'https://energy.rajasthan.gov.in'
   },
   'renewable-initiatives': {
     title: 'State Renewable Energy Initiatives',
+    subtitle: 'Comprehensive Renewable Energy Programs',
+    description: 'Various state-level initiatives to promote renewable energy adoption across different sectors.',
     heroImage: 'https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?auto=format&fit=crop&q=80',
-    // Other details would be filled in similar structure
+    components: [],
+    subsidies: [],
+    documents: [],
+    externalLink: 'https://energy.rajasthan.gov.in'
   }
 };
 
@@ -153,6 +174,7 @@ const SchemeDetail = () => {
         
         <Hero 
           title={scheme.title}
+          subtitle={scheme.subtitle}
           backgroundImage={scheme.heroImage}
           overlayColor="from-black/60 to-black/40"
         />
@@ -161,6 +183,8 @@ const SchemeDetail = () => {
           <div className="container-custom max-w-4xl text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Under Construction</h2>
             <p className="text-lg text-gray-600 mb-8">
+              {scheme.description}
+              <br /><br />
               Detailed information for this scheme is currently being updated. Please check back later or visit the PM-KUSUM scheme page for a complete example.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
