@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
 import Navbar from '@/components/Navbar';
@@ -46,7 +45,6 @@ const successStories = [
     location: 'Sanoli Village',
     title: '2 MW Solar Plant Provides Stable Income',
     description: 'Smt. Rewati Devi installed a 2 MW solar plant under the PM-KUSUM scheme, transforming her financial situation and creating a reliable income source for her family.',
-    challenge: "While specific challenges aren't detailed, implementing a 2 MW solar plant likely involved addressing operational issues such as coordinating with multiple stakeholders and managing construction timelines.",
     impact: "The 2 MW plant has not only provided financial stability to Smt. Rewati Devi's family but also serves as a model for women entrepreneurs in renewable energy across the region.",
     keyPoints: [
       'Plant Capacity: 2 MW',
